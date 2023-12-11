@@ -1,0 +1,27 @@
+#error {
+     width: 1200px;
+     margin: 0 auto;
+     margin-top:50px;
+     text-align: center;
+     height: auto;
+}
+
+#error p {
+     margin-bottom: 20px;
+}
+
+#error a {
+     background-color: #3d8af7;
+     color: #fff;
+     padding:5px 15px 5px 15px;
+     border-radius:5px;
+     text-decoration: none;
+}
+
+#error a:hover {
+     background-color: #2c64b4;
+     color: #fff;
+     padding:5px 15px 5px 15px;
+     border-radius:5px;
+     text-decoration: none;
+}

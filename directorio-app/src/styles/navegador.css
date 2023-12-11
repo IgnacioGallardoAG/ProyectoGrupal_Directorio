@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+:root {
+  --primaryColor: #3d8af7;
+  --greyColor: #b3b3b3;
+}
+
+* {
+    font-family: Poppins, PoppinsInitial, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .containerNavigator {
+    
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.22);
+    border: 1px solid rgb(204, 203, 203);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: auto;
+    padding: 15px 0px 15px 0px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* position: fixed;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 1000; */
+  }
+  
+  .containerNavigator ul{
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  .containerNavigator ul li {
+    display: inline;
+  }
+  
+  .containerNavigator ul li a {
+    float: left;
+    font-style: none;
+    text-decoration: none;
+    padding: 10px 10px;
+  }
+
+  .containerNavigator ul li p {
+    float: right;
+    padding: 10px 10px;
+  }
+  
+  #button-rest {
+    color: #000; 
+    margin-right: 10px; 
+  }
+  
+  #button-rest:hover {
+    opacity: 0.75;
+    transform: translateY(-5px);
+    color: var(--primaryColor);
+  }
+  
+  .containerNavigator ul li a:hover {
+    transition: 0.5s;
+  }
+  
+  
+  #button-inicio {
+    float: right;
+    border-radius: 50px;
+    color: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
+    margin-right: 50px;
+  }
+  
+  #button-inicio:hover {
+    background-color: var(--primaryColor);
+    color: #fff;
+    transition: 1s;
+  }
+  
+  #logo {
+    width: 100px;
+    height: auto;
+    float:left;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+
+  #iconos-nav {
+    margin-right: 10px;
+  }
+
+  #btn-logout {
+    float: right;
+  }
+
+  #btn-logout:hover {
+    opacity: 0.75;
+    transform: translateY(-5px);
+    color: var(--primaryColor);
+  }
+
+  #btn-perfil {
+    float: right;
+  }
+
+  #btn-perfil:hover {
+    opacity: 0.75;
+    transform: translateY(-5px);
+    color: var(--primaryColor);
+  }
+
+  #btn-dashboard{
+    float: right;
+  }
+
+  #btn-dashboard:hover{
+    opacity: 0.75;
+    transform: translateY(-5px);
+    color: var(--primaryColor);
+  }
+
+  #btn-eliminar {
+    float: right;
+    background-color: red;
+    border: none;
+  }
+
+  #btn-editar {
+    float: right;
+    margin-right: 10px;
+    background-color: rgb(38, 221, 38);
+    border: none;
+  }
+

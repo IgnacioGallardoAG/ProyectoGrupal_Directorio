@@ -1,0 +1,107 @@
+
+
+:root {
+    --primaryColor: #3d8af7;
+    --greyColor: #ebebeb;
+}
+
+
+.container-details-negocios {
+    border: 2px solid var(--greyColor);
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.negocio-details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.negocio-details-left {
+    padding: 20px;
+    text-align: left;
+}
+.negocio-details-left h2 {
+    margin-bottom: 15px;
+}
+
+.negocio-details-right {
+    padding: 50px;
+}
+
+#titulo-negocio {
+    padding: 10px;
+    width: auto;
+    border-radius: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#volver-btn {
+    padding: 15px;
+    position: absolute;
+    font-size: 30px;
+    color: #000;
+}
+
+#volver-btn:hover {
+    transition: 0.5s;
+    color: var(--primaryColor);
+    transform: translateX(-5px)
+}
+
+.container-comentarios {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.container-comentarios form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-comentarios form input {
+    width: 200px;
+}
+
+.container-comentarios form textarea {
+    width: 400px;
+}
+
+.container-all-comentarios h1 {
+    color: var(--primaryColor);
+    padding: 15px;
+    text-align: center;
+}
+
+
+.container-card-resena {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 800px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+.container-card-resena ul {
+    list-style: none;
+}
+
+.card-resena {
+    padding: 20px;
+    border: 2px solid var(--greyColor);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#not-logged {
+    text-align: center;
+}

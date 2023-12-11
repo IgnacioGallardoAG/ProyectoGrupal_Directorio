@@ -1,0 +1,79 @@
+:root {
+  --primaryColor: #3d8af7;
+  --greyColor: #ebebeb;
+}
+
+.container-evento {
+  margin: 0 auto;
+  display: flex;
+  width: 1200px;
+  margin-top: 50px;
+  border: 1px solid rgb(204, 203, 203);
+  box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.22);
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container-left-evento {
+  width: 685px;
+  margin-right: 50px;
+  background-image: url("../assets/images/eventosfinal.png");
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.container-right-evento {
+  flex: 2;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.container-filters {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.filtro-eventos {
+  background-color: var(--primaryColor);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+}
+
+#buscar {
+  padding: 5px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container-eventos-inside {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); 
+  grid-gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.descripción_sección {
+  text-align: justify;
+}
+
+.evento-card {
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgb(204, 203, 203);
+}

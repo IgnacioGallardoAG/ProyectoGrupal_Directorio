@@ -1,0 +1,111 @@
+@import url("../styles/fonts/fonts.css");
+
+:root {
+    --primaryColor: #3d8af7;
+    --greyColor: #cfcece;
+}
+
+.container-register {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1200px;
+    text-align: center;
+}
+.container-form-title {
+    font-family: fuenteRegular;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: #fff;
+}
+.container-register form {
+    margin: 0 auto;
+    padding:50px;
+    width: 500px;
+    border: 1px solid rgb(204, 203, 203);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.22);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error {
+    color: red;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.container-register label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size:15px;
+}
+
+.container-register input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid var(--greyColor);
+    border-radius:5px;
+}
+
+.container-register form button {
+    padding: 10px;
+    border: 2px solid var(--primaryColor);
+    background-color: var(--primaryColor);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.container-register form button:hover {
+    background-color: #fff;
+    color: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.error-register {
+    background-color: red;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-btn {
+    display: flex;
+}
+
+.container-btn a {
+    width: 50%;
+    background-color: #202020;
+    padding: 10px;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #202020;
+}
+
+.container-btn a:hover {
+    border: 2px solid #202020;
+    background-color: #fff;
+    color: #202020;
+    transition: 0.5s;
+}
+
+
+
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fuenteBold';
+    src: url('../../assets/fonts/Poppins-Bold.ttf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'fuenteRegular';
+    src: url('../../assets/fonts/Poppins-Regular.ttf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}

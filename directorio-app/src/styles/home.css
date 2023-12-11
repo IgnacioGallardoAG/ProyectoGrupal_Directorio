@@ -1,0 +1,214 @@
+@import url('../styles/fonts/fonts.css');
+
+
+:root {
+    --primaryColor: #3d8af7;
+    --greyColor: #ebebeb;
+}
+
+
+.container {
+    border: 1px solid rgb(204, 203, 203);
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.22);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}   
+
+.container-left {
+    padding: 60px;
+    max-width: 400px;
+}
+.container-left h1{
+    font-family: fuenteBold;
+    font-size: 34px;
+}
+
+.container-left h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 15px 0 15px 0px;
+}
+
+.container-left p {
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.container-buttons {
+    height: auto;
+    width: 100%;
+    display: inline;
+}
+
+#btn-verMas {
+    color: #fff;
+    background-color: var(--primaryColor);
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: 2px solid var(--primaryColor);
+}
+
+
+#btn-verMas:hover {
+    color: var(--primaryColor);
+    background-color: #fff;
+    border: 2px solid var(--primaryColor);
+    transition: 0.5s;
+}
+#btn-registro {
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: var(--primaryColor);
+    border-radius: 50px;
+    border: 2px solid var(--primaryColor);
+}
+
+#btn-registro:hover {
+    color: #fff;
+    transition:0.5s;
+    background-color: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
+}
+
+.container-right {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url("../assets/images/home.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* estilos contenedor about */
+
+hr {
+    background-color: var(--greyColor);
+}
+
+.container-about {
+    border: 1px solid rgb(204, 203, 203);
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.22);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+}
+
+.titulo-about {
+    color: var(--primaryColor);
+    margin-bottom: 10px;
+}
+
+.container-inside-about {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-inside-about img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.minicontainer {
+    padding: 30px;
+    margin-right: 50px;
+    max-width: 200px;
+}
+
+.iconos {
+    margin-bottom: 10px;
+    font-size:100px;
+    color: #d9d8d8;
+}
+
+.minicontainer h4 {
+    color: var(--primaryColor);
+}
+
+/* estilos contededor recomendaciones*/
+
+.container-recomendations {
+    border: 1px solid rgb(204, 203, 203);
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.22);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding: 60px 0px 0px 0px;
+    text-align: center;
+}
+
+.contenedor-carrusel {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.carrusel-item {
+    height: auto;
+    width: 300px;
+    border: 3px solid var(--primaryColor);
+    padding: 20px 0px 0px 0px;
+    scroll-snap-type: center;
+    margin-right: 60px;
+    border-radius: 30px;
+    scroll-snap-align: center;
+    overflow: hidden;
+}
+
+.carrusel-item:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.carrusel-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+.container-bottom {
+    padding: 10px 10px 20px 10px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.093);
+}
+
+.container-bottom a {
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.container-bottom a:hover {
+    background-color:#fff;
+    color: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
+    transition:0.5s;
+}
+

@@ -1,0 +1,157 @@
+:root {
+    --primaryColor: #3d8af7;
+    --greyColor: #ebebeb;
+}
+
+
+.container-dashboard {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    padding: 0;
+}
+
+.container-dashboard ul {
+    padding: 0;
+    border-radius: 5px;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #333;
+    margin-bottom: 50px;
+}
+
+.container-dashboard ul li {
+    float: left;
+}
+
+.container-dashboard ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+
+.container-dashboard ul li a:hover {
+    background-color: #111;
+}
+
+.container-tabla {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    height: auto;
+}
+
+table th {
+    width: auto;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+#columna-opciones {
+    width: 160px;
+}
+.container-tabla h1{
+    background-color: #333;
+    color: #fff;
+}
+
+.marcado {
+    background-color: #111;
+}
+
+
+/* ===========================TAREAS DASHBOARD============================ */
+
+.container-form {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container-form form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 2px solid var(--greyColor);
+    padding: 20px;
+}
+
+#volver-btn1 {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.container-btn-task {
+    margin: 0 auto;
+    width: 1200px;
+    margin-bottom: 50px;
+}
+
+.container-form form textarea {
+    margin-bottom: 20px;
+    border: 2px solid var(--greyColor);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container-form form input {
+    border: 2px solid var(--greyColor);
+}
+
+.btn-add {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    margin-right: 10px;
+}
+
+.btn-add:hover {
+    background-color: #fff;
+    border: 2px solid #333;
+    color: #333;
+}
+
+#btn-editar {
+    background-color: rgb(10, 179, 10);
+    color: #fff;
+    padding: 9px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#btn-editar:hover {
+    background-color: green;
+    color: #fff;
+    padding: 9px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#btn-eliminar:hover {
+    background-color: rgb(185, 6, 6);
+    color: #fff;
+    transition: none;
+}
+
+
+
