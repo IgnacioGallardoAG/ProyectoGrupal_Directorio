@@ -9,4 +9,6 @@ Instrucciones para la ejecucion:
 - Una vez se cumplan los pasos anteriores, para iniciar tanto el frontend como el backend se debe usar el comando personalizado npm run dev (en ambas consolas).
 Con eso estaras iniciando tanto el servidor como la app react.
 
+nota: Recordar usar el comando "npm install" en la consola destinada para el frontend (para que no tengan problemas con las dependencias).
+
 Saludos
